@@ -240,7 +240,7 @@ h3 { font-size: 2.4rem; }
     color: var(--blanco); 
 }
 
-.formulario__campo {
+.formulario__campo{
     border-color: var(--primarioOscuro);
     border-width: 1rem;
     border-style: solid;
@@ -252,6 +252,10 @@ h3 { font-size: 2.4rem; }
     padding: 1rem;
     appearance: none;
     width: 100%;
+}
+
+.formulario__campo::placeholder{
+    color: var(--blanco);
 }
 
 @media (max-width: 768px) {
